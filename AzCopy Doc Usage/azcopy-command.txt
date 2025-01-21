@@ -1,0 +1,14 @@
+# Configuration des identifiants du compte de stockage Azure
+# Nom du compte de stockage
+set ACCOUNT_NAME=<storage-account-name>
+
+# Clé d'accès du compte de stockage (à stocker de manière sécurisée)
+set ACCOUNT_KEY=<storage-account-name-secret-key>
+
+# Transfert des fichiers vers Azure Data Lake Storage Gen2
+# Source : Dossier local contenant les fichiers à transférer
+# Destination : Conteneur dans Azure Data Lake Storage
+# Options :
+#   --recursive=true : Inclut tous les sous-dossiers et leurs contenus
+
+azcopy cp "C:\OnlineCourses\DataLake\v2\DemoResources\SampleInputFiles\*" "https://<storage-account-name>.dfs.core.windows.net/<container-name>/inputdataazcopy/" --recursive=true
