@@ -3,10 +3,11 @@
 This repository demonstrates how to use Azure Data Lake Storage Gen2 with various tools including **AzCopy** and **Azure Databricks**. It includes sample data, configuration files, and example notebooks for data processing workflows.
 
 Prerequisites:
-- Azure subscription
-- Azure Data Lake Storage Gen2 account
-- Azure Databricks workspace
-- AzCopy installed locally
+- 🚀 Efficient data transfer with AzCopy
+- 📊 Databricks integration for data processing
+- 🔒 Secure storage access patterns
+- 🔄 Sample ETL workflows
+- 📝 Example datasets for testing
 
 # AzCopy Commands Examples
 ```
