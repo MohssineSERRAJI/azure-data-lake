@@ -28,5 +28,5 @@ url = f"abfss://{container}@{storage_account}.dfs.core.windows.net/"
 # Permet d'accéder aux données comme un système de fichiers local
 dbutils.fs.mount(
   source = url,
-  mountPoint = "/mnt/<mount-name>", #Chemin dans Databricks où le conteneur sera accessible
-  extraConfigs = configs)
+  mount_point = "/mnt/<mount-name>", #Chemin dans Databricks où le conteneur sera accessible
+  extra_configs = configs)
